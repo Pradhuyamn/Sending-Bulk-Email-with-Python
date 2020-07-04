@@ -17,7 +17,7 @@ try:
     server.starttls()
 
     #Login using Email
-    server.login("pradhuyamn@gmail.com","Pradhuyamnneema@12345")
+    server.login("pradhuyamn@gmail.com","Enter_Your_Password")
     from_ ="pradhuyamn@gmail.com"
     to_=list_of_emails
     message=MIMEMultipart("alternative")
